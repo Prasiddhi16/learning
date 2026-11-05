@@ -1,0 +1,57 @@
+body
+{
+    margin:0;
+    top:0;
+    padding:0;
+    background:linear-gradient(to right,#f1e2de, #e4f6c4)
+}
+.top
+{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-family: monospace;
+    font-weight: 800;
+    font-size: xx-large;
+    border-bottom:1px solid black;
+    
+
+}
+.clock
+{
+    margin: 10px;
+}
+#today {
+    color: grey;
+    font-size: larger;   
+    font-family: monospace;
+    font-weight: 300;
+}
+#day
+{  margin-top: 3px;
+   font-size: xx-large;   
+    font-family: monospace;
+    font-weight: 800; 
+}
+.time
+{
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+    padding: 50px;
+
+}
+.box
+{
+background: black;
+  color: white;
+  padding: 130px;
+  border-radius: 5px;
+  perspective: 1000px; 
+  position: relative;
+  overflow: hidden;
+  font-size:xx-large;
+  font-weight: 900;
+}
