@@ -47,11 +47,45 @@ body
 {
 background: black;
   color: white;
-  padding: 130px;
+  padding: 120px;
   border-radius: 5px;
   perspective: 1000px; 
   position: relative;
   overflow: hidden;
   font-size:xx-large;
-  font-weight: 900;
+  gap: 20px;
+  font-family: monospace;
+  font-size: 60px;
+  font-weight: bold;
+}
+.bottom
+{
+   border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    display:flex;
+    flex-direction:row;
+    gap: 60px;
+    justify-content: space-between; /* pushes items apart */
+   align-items: center;            /* vertically aligns them */
+   padding: 10px 20px;
+}
+
+.bottom button {
+   
+   height: 40px;        
+   width: 80px;         
+   font-size: 16px;
+   font-family: monospace;
+   font-weight: bold;
+   border: none;
+   border-radius: 5px;
+   background: black;
+   color: white;
+   cursor: pointer;
+}
+#system
+{
+    display: flex;
+    flex-direction: row;
+    gap:30px
 }
